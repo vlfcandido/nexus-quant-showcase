@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/marca/cabecalho-escuro.svg">
+  <img alt="Nexus Quant" src="docs/marca/cabecalho-claro.svg" width="100%">
+</picture>
+
 # Nexus Quant
 
 Bot de trading de criptomoedas (Bybit spot) que construí sozinho entre março e setembro de 2026: grid trading com um "cérebro" de decisão trocável em produção, pipeline de machine learning com validação temporal purgada, reconciliação contínua com a exchange e observabilidade de ponta a ponta.
