@@ -35,6 +35,12 @@ Grid trading parece simples: espalhar ordens de compra abaixo do preço, e cada 
 
 ## Arquitetura
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/marca/diagrama-escuro.svg">
+  <img alt="Diagrama: corretora em simulação, coletor e fila Redis Streams, cérebro ativo e cérebro em teste, guardas de risco, reconciliação a cada minuto e painel com alertas" src="docs/marca/diagrama-claro.svg" width="100%">
+</picture>
+
+
 ```mermaid
 flowchart LR
     BY[(Bybit<br/>REST + WebSocket)] --> COL[collector]
