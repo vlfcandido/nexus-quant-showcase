@@ -4,7 +4,7 @@ Bot de trading de criptomoedas (Bybit spot) que construí sozinho entre março e
 
 Este repositório é só a vitrine. **O código e a estratégia são privados**; aqui está como o sistema foi pensado, o que foi medido e o que deu errado.
 
-![Terminal do bot, com dados fictícios](docs/prints/nexus-quant.png)
+![Painel web do bot rodando com dados fictícios](docs/prints/nexus-quant.png)
 
 <sub>Print gerado com dados fictícios. Pares, valores e limiares não são os reais.</sub>
 
@@ -94,7 +94,7 @@ O trabalho de ML foi feito com a preocupação de não se enganar, que em finan�
 
 **Backtest.** Simulador sobre candles de 1 minuto, com saída por lote, taxa e slippage por execução. Antes do simulador "canônico" houve implementações que discordavam entre si; achar a causa (uma média invertida, um cooldown aplicado no lugar errado) virou teste de regressão.
 
-![Relatório de backtest, com dados fictícios](docs/prints/nexus-quant-backtest.png)
+![Tela de ciclos do painel, com o resultado por par, com dados fictícios](docs/prints/nexus-quant-backtest.png)
 
 <sub>Print gerado com dados fictícios.</sub>
 
